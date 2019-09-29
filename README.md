@@ -6,7 +6,9 @@ it will generate combined application of Reactjs and Express js
 # How to inegrate React application with express js
 
 Step 1 :- git clone from current repository
+
 Step 2:- cd reactwithexpress
+
 Step 3:- npm run dev
 
 
