@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node server.js",
-    "server":"nodemon server.js",
+    "start": "node server.js",
+    "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
@@ -21,8 +21,10 @@
   },
   "homepage": "https://github.com/niteshsingh101/integrateReactjsWithExpressAndNode#readme",
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "concurrently": "^4.1.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "react-bootstrap": "^1.0.0-beta.16"
   },
   "devDependencies": {
     "nodemon": "^1.19.2"
